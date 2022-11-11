@@ -1,4 +1,4 @@
-# bachelor-thesis-simon
+# Table of contents:
 Blazar Histograms: <br />
 Visualizations and data cleaning of the blazar catalog data
 <br /> <br />
