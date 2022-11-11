@@ -9,4 +9,4 @@ Matching algorithm: <br />
 Algorithm that searches for matches of neutrino hotspots and blazars from a catalog
 <br /> <br />
 Neutrino Histograms: <br />
-Visualizations and data cleaning of the IceCube neutrino data (includes clustering of data into hotspots). 
+Visualizations and data cleaning of the IceCube neutrino data (includes clustering of data into hotspots)
