@@ -20,7 +20,6 @@ ra_shift = np.sin(angle * (np.pi / 180.0)) * shifting_distance
 dec_shift = np.cos(angle * (np.pi / 180.0)) * shifting_distance
 
 # Now to the actual scrambling procedure:
-time_gen = []
 def generate_catalog():
     catalog = ([ra+np.random.choice(ra_shift) for ra in df["RA"]], [dec+np.random.choice(dec_shift) for dec in df["DEC"]]) # The original catalog is scrambled, but the scramling process shifts some blazars outside the desired boundaries.
     # Shift all blazars outside the outer boundaries back inside:
@@ -43,7 +42,6 @@ def generate_catalog():
 
 
 # The matching algorithm as a function. Matches one catalog for all possible combinations of L and r:
-time_match = []
 def match_catalog(catalog, L, r):
     if L == 3.5:
         df_centers = pd.read_csv("/home/simon/condor/neutrino_hotspots_35.csv").to_numpy()
