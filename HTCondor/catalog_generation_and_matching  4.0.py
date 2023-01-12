@@ -5,10 +5,6 @@ from astropy import units as u
 from astropy.coordinates import SkyCoord
 from haversine import haversine_vector, Unit
 
-parser = argparse.ArgumentParser()
-parser.add_argument('-i', type=int, required=True, help="batch number")
-i = parser.parse_args().i
-
 # The original catalog containing 1177 blazars:
 original = pd.read_csv("/home/simon/condor/data/original_catalog.csv")
 
@@ -66,8 +62,8 @@ for num in range(num_of_catalogs):
     result += str(matches).translate({ord('['): None,ord(']'): None})+"\n"
     
 output_dir = "/home/simon/condor/output/"
-outfname = "{0:s}/output.csv".format(output_dir, i)
-f = open(outfname, "w")
+outfname = "{0:s}/output.csv".format(output_dir)
+f = open(outfname, "a")
 f.write("L1r1,L1r2,L1r3,L1r4,L1r5,L1r6,L1r7,L2r1,L2r2,L2r3,L2r4,L2r5,L2r6,L2r7,L3r1,L3r2,L3r3,L3r4,L3r5,L3r6,L3r7"+"\n")
 f.write(str(result))
 f.close()
