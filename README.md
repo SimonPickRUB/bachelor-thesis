@@ -1,12 +1,6 @@
 # Table of contents:
-<ins> Blazar Histograms: </ins> <br />
-Visualizations and data cleaning of the blazar catalog data
+<ins> Data preparation & coding journal: </ins> <br />
+Contains all data cleaning notebooks and first versions of algorithms which are used in the catalog generation and matching script
 <br /> <br />
-<ins>MC catalog generation: </ins> <br />
-Generation of Monte Carlo catalogs from the original catalog data and Kolmogorow-Smirnow-Tests
-<br /> <br />
-<ins> Matching algorithm: </ins> <br />
-Algorithm that searches for matches of neutrino hotspots and blazars from a catalog
-<br /> <br />
-<ins> Neutrino Histograms: </ins> <br />
-Visualizations and data cleaning of the IceCube neutrino data (includes clustering of data into hotspots)
+<ins>scripts: </ins> <br />
+Documentation of the files for computing catalogs and matches with the IceCube cluster
