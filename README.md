@@ -7,5 +7,6 @@ Documentation of files for computing catalogs and matches with the IceCube clust
 <br /> <br />
 <ins>Buson's catalog generation and matching: </ins> <br />
 Notebook on how to calculate pre-trial p-values with Buson's method
+<br /> <br />
 <ins>Altered clustering p-value calculation: </ins> <br />
 Notebook on how to calculate pre-trial p-values for data from an altered clustering method
