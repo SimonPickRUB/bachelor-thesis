@@ -4,9 +4,3 @@ Contains all data cleaning notebooks and first versions of algorithms which are 
 <br /> <br />
 <ins>scripts: </ins> <br />
 Documentation of files for computing catalogs and matches with the IceCube cluster
-#<br /> <br />
-#<ins>Buson's catalog generation and matching: </ins> <br />
-#Notebook on how to calculate pre-trial p-values with Buson's method
-#<br /> <br />
-#<ins>Altered clustering p-value calculation: </ins> <br />
-#Notebook on how to calculate pre-trial p-values for data from an altered clustering method
